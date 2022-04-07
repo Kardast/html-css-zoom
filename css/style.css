@@ -24,6 +24,7 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 header .buttons{
@@ -40,7 +41,29 @@ header .buttons a{
 
 /* Main */
 main{
-    height: calc(100vh - 115px);
+    height: calc(100vh - 145px);
+}
+
+main .container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* debug */
+    background: gray;
+}
+
+main .container .user{
+    width: 400px;
+    height: 250px;
+    /* debub */
+    background: red;
+}
+
+.container .user img{
+    width: 400px;
+    height: 250px;
 }
 
 /* Footer */
@@ -51,6 +74,7 @@ footer{
     align-items: center;
     justify-content: space-between;
     background-color: #222222;
+    position: fixed;
 }
 
 footer ul{
